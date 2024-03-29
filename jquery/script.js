@@ -40,3 +40,22 @@ $("body").keyup(function(){
 $("body").keydown(function(){
     $(this).css("background-color","orange");
 });
+
+//form events-------
+$("#name").focus(function(){
+    $(this).css("background-color","#d39234");
+});
+$("#name, #class").blur(function(){
+    $(this).css("background-color","");
+});
+//change works on select only
+$("#country").change(function(){
+    $(this).css("background-color","pink");
+});
+//select works on inputs only
+$("#class").select(function(){
+    $(this).css("background-color","blue");
+});
+$("#form").submit(function(){
+    alert("submited");
+});
