@@ -29,3 +29,14 @@ $(".text").dblclick(function(){
 $(".text").contextmenu(function(){
     $(".text").css("background-color","pink");
 });
+
+//keyboard events--------
+$("body").keypress(function(){
+    $(this).css("background-color","black");
+});
+$("body").keyup(function(){
+    $(this).css("background-color","pink");
+});
+$("body").keydown(function(){
+    $(this).css("background-color","orange");
+});
