@@ -4,3 +4,15 @@
     padding: 10px;
     margin: 10px;
 }
+.text{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(167, 133, 167);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: blueviolet;
+    
+}
